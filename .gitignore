@@ -1,0 +1,35 @@
+# Node / React
+frontend-src/node_modules/
+frontend-src/build/
+frontend-src/.env
+frontend-src/*.log
+frontend-src/test-results/
+frontend-src/playwright-report/
+frontend-src/coverage/
+*.log
+
+# .NET
+**/bin/
+**/obj/
+**/Logs/
+*.user
+*.suo
+.vs/
+**/.vs/
+*.db
+
+# Publish artifacts
+artifacts/
+*.zip
+
+# Runtime uploads and secrets
+**/wwwroot/uploads/
+*.Production.json
+*.local.json
+
+# Python
+ai/.venv/
+ai/__pycache__/
+ai/**/*.pyc
+ai/**/__pycache__/
+ai/inversecooking/data/*.ckpt
